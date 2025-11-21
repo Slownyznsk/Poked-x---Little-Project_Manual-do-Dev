@@ -1,0 +1,104 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Press Start 2P", cursive;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(to right, #d1202f, #a11947);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+
+.pokedex {
+    width: 100%;
+    max-width: 425px;
+}
+
+.pokemon {
+    position: absolute;
+    top: 27%;
+    left: 49%;
+    transform: translate(-63%, 20%);
+    height: 18%;
+}
+
+.info_pokemon {
+    position: absolute;
+    top: 57.5%;
+    left: 54.3%;
+    transform: translate(-50%, -50%);
+    color: #aaa;
+    font-weight: 700;
+    font-size: 100%;
+}
+
+.nome_pokemon {
+    text-transform: uppercase;
+    color: rgb(65, 65, 65);
+}
+
+.form {
+    position: absolute;
+    top: 71%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_busca {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    width: 300px;
+    background-color: #E3E3E3;
+    border: 2px solid #242424;
+    box-shadow: -2px 2px 0 #888, -4px 5px 0 #333;
+    outline: none;
+}
+
+.btn_busca {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c50818;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.botoes {
+    position: absolute;
+    top: 85%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 20px;
+}
+
+.btn-prox, .btn-voltar {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #E3E3E3;
+    border: 2px solid #242424;
+}
+

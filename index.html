@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedéx do Slowny</title>
+    <link rel="icon" href="imgs/favicon/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Orbitron:wght@400..900&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main> 
+        <img src="imgs/pokedex.png" alt="pokemon" class="pokemon">
+
+        <h1 class="info_pokemon">
+            <span class="nome_pokemon"></span> 
+            <span class="numero_pokemon"></span>
+        </h1>
+
+        <form class="form">
+            <input type="text" class="input_busca" placeholder="Digite o nome ou número do pokémon" required>
+            <button type="submit" class="btn_busca">Pesquisar</button>
+        </form>
+
+        <div class="botoes">
+            <button class="btn-voltar">Anterior</button>
+            <button class="btn-prox">Próximo</button>
+        </div>
+
+        <img src="imgs/pokedex.png" alt="pokedex" class="pokedex">
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
